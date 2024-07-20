@@ -1,10 +1,9 @@
 numpy
 pandas
 yfinance
-tensorflow
+tensorflow==2.12.0
 keras
 pywrap
 streamlit
 matplotlib
 scikit-learn
-streamlit_extras==0.2.4
