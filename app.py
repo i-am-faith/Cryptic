@@ -17,7 +17,7 @@ page_options = ["Home", "About", "Contact"]
 selected_page = st.sidebar.radio("Navigation", page_options)
 
 # Load Model
-model = load_model('Bitcoin_Price_prediction_Model.keras')
+model = load_model('Bitcoin_Price_prediction_Model.h5')
 
 # Home Page
 if selected_page == "Home":
