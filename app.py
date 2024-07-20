@@ -4,7 +4,6 @@ import yfinance as yf
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
-import pywrap
 
 # Set page title and icon
 st.set_page_config(
@@ -72,7 +71,7 @@ elif selected_page == "About":
 
     st.write(
         "1. Welcome to My Cryptocurrency Price Prediction Application!\n"
-        "2. I am Sourin Mukherjee ,dedicated to providing you with accurate and insightful cryptocurrency price predictions.\n"
+        "2. I am Sourin Mukherjee, dedicated to providing you with accurate and insightful cryptocurrency price predictions.\n"
         "3. ⭐THIS WEBSITE IS USED FOR TRAINING AND DEVELOPMENT PURPOSES⭐"
     )
 
@@ -93,15 +92,10 @@ elif selected_page == "About":
         "relevant as possible."
     )
 
-
-
     st.success("Thank you for choosing our Cryptocurrency Price Prediction App!")
-
-
 
 # Contact Page
 elif selected_page == "Contact":
-    import streamlit as st
 
     st.title("Contact Us")
 
