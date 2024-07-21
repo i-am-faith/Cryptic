@@ -8,7 +8,7 @@ import streamlit as st
 
 # Set page title and icon
 st.set_page_config(
-    page_title="Switch To Bit",
+    page_title="Cryptic",
     page_icon="🪙",
 )
 
